@@ -17,7 +17,7 @@ function App() {
         </a>
       </div>
       <h1>
-        Vite + React <br />
+        Vite + React1 <br />
         {import.meta.env.VITE_KEY}
       </h1>
       <div className="card">
