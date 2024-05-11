@@ -3,6 +3,7 @@ import "./App.css";
 import Router from "./router";
 
 function App() {
+  console.log("app.tsx 리렌더링");
   return (
     <>
       <Suspense>

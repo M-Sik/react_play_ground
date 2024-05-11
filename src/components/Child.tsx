@@ -6,8 +6,8 @@ type Props = {
 };
 
 function Child({ testFunc, testState }: Props) {
-  console.log("자식 리렌더링");
-  return <div>Child {testState}</div>;
+  // console.log("자식 리렌더링");
+  return <button onClick={testFunc}>Child {testState}</button>;
 }
 
 export default React.memo(Child);
